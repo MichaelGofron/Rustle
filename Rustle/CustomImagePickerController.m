@@ -7,11 +7,13 @@
 //
 
 #import "CustomImagePickerController.h"
+#import "Constants.h"
 
 @implementation CustomImagePickerController
 
--(void)shootPictures{
-    [self takePicture];
-}
+//-(void)shootPictures{
+//    if (debug==1) {NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));}
+//    [self takePicture];
+//}
 
 @end

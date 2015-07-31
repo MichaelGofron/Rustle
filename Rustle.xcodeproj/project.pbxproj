@@ -15,6 +15,18 @@
 		CE5A15161A211F5C00E5721A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5A15141A211F5C00E5721A /* LaunchScreen.xib */; };
 		CE5A15221A211F5C00E5721A /* RustleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5A15211A211F5C00E5721A /* RustleTests.m */; };
 		CE5A152E1A21561500E5721A /* CustomImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5A152D1A21561500E5721A /* CustomImagePickerController.m */; };
+		CED0BF331A90165F0088A1F6 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED0BF2E1A90165F0088A1F6 /* Bolts.framework */; };
+		CED0BF391A9016E00088A1F6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED0BF381A9016E00088A1F6 /* AudioToolbox.framework */; };
+		CED0BF3B1A9016EA0088A1F6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED0BF3A1A9016EA0088A1F6 /* CFNetwork.framework */; };
+		CED0BF3D1A9016F50088A1F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED0BF3C1A9016F50088A1F6 /* CoreGraphics.framework */; };
+		CED0BF3F1A9016FC0088A1F6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED0BF3E1A9016FC0088A1F6 /* CoreLocation.framework */; };
+		CED0BF411A9017060088A1F6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED0BF401A9017060088A1F6 /* MobileCoreServices.framework */; };
+		CED0BF431A90170E0088A1F6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED0BF421A90170E0088A1F6 /* QuartzCore.framework */; };
+		CED0BF451A9017170088A1F6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED0BF441A9017170088A1F6 /* Security.framework */; };
+		CED0BF471A90171F0088A1F6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED0BF461A90171F0088A1F6 /* StoreKit.framework */; };
+		CED0BF491A9017280088A1F6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED0BF481A9017280088A1F6 /* SystemConfiguration.framework */; };
+		CED0BF4B1A9017310088A1F6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CED0BF4A1A9017310088A1F6 /* libz.dylib */; };
+		CED0BF4D1A90173A0088A1F6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CED0BF4C1A90173A0088A1F6 /* libsqlite3.dylib */; };
 		CEEB53D11A21A28D000C4BDB /* RustlesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB53D01A21A28D000C4BDB /* RustlesTableViewController.m */; };
 		CEEB54421A21ABB2000C4BDB /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB54411A21ABB2000C4BDB /* PhotoCell.m */; };
 /* End PBXBuildFile section */
@@ -30,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE0A55381A88219800EDC371 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		CE5A15021A211F5C00E5721A /* Rustle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rustle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5A15061A211F5C00E5721A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE5A15071A211F5C00E5721A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,6 +58,22 @@
 		CE5A15211A211F5C00E5721A /* RustleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RustleTests.m; sourceTree = "<group>"; };
 		CE5A152C1A21561500E5721A /* CustomImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomImagePickerController.h; sourceTree = "<group>"; };
 		CE5A152D1A21561500E5721A /* CustomImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomImagePickerController.m; sourceTree = "<group>"; };
+		CED0BF2E1A90165F0088A1F6 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CED0BF2F1A90165F0088A1F6 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CED0BF301A90165F0088A1F6 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		CED0BF311A90165F0088A1F6 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		CED0BF321A90165F0088A1F6 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		CED0BF381A9016E00088A1F6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CED0BF3A1A9016EA0088A1F6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CED0BF3C1A9016F50088A1F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CED0BF3E1A9016FC0088A1F6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CED0BF401A9017060088A1F6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CED0BF421A90170E0088A1F6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CED0BF441A9017170088A1F6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CED0BF461A90171F0088A1F6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CED0BF481A9017280088A1F6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CED0BF4A1A9017310088A1F6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CED0BF4C1A90173A0088A1F6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		CEEB53CF1A21A28D000C4BDB /* RustlesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RustlesTableViewController.h; sourceTree = "<group>"; };
 		CEEB53D01A21A28D000C4BDB /* RustlesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RustlesTableViewController.m; sourceTree = "<group>"; };
 		CEEB54401A21ABB2000C4BDB /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoCell.h; path = ../PhotoCell.h; sourceTree = "<group>"; };
@@ -56,6 +85,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED0BF4D1A90173A0088A1F6 /* libsqlite3.dylib in Frameworks */,
+				CED0BF4B1A9017310088A1F6 /* libz.dylib in Frameworks */,
+				CED0BF491A9017280088A1F6 /* SystemConfiguration.framework in Frameworks */,
+				CED0BF471A90171F0088A1F6 /* StoreKit.framework in Frameworks */,
+				CED0BF451A9017170088A1F6 /* Security.framework in Frameworks */,
+				CED0BF431A90170E0088A1F6 /* QuartzCore.framework in Frameworks */,
+				CED0BF411A9017060088A1F6 /* MobileCoreServices.framework in Frameworks */,
+				CED0BF3F1A9016FC0088A1F6 /* CoreLocation.framework in Frameworks */,
+				CED0BF3D1A9016F50088A1F6 /* CoreGraphics.framework in Frameworks */,
+				CED0BF3B1A9016EA0088A1F6 /* CFNetwork.framework in Frameworks */,
+				CED0BF391A9016E00088A1F6 /* AudioToolbox.framework in Frameworks */,
+				CED0BF331A90165F0088A1F6 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,9 +110,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE03611D1B6B2B6C006D3A67 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE5A150C1A211F5C00E5721A /* CameraViewController.h */,
+				CE5A150D1A211F5C00E5721A /* CameraViewController.m */,
+				CE5A152C1A21561500E5721A /* CustomImagePickerController.h */,
+				CE5A152D1A21561500E5721A /* CustomImagePickerController.m */,
+				CEEB53CF1A21A28D000C4BDB /* RustlesTableViewController.h */,
+				CEEB53D01A21A28D000C4BDB /* RustlesTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		CE5A14F91A211F5C00E5721A = {
 			isa = PBXGroup;
 			children = (
+				CED0BF2D1A90165F0088A1F6 /* parse-library-1.6.2 */,
 				CE5A15041A211F5C00E5721A /* Rustle */,
 				CE5A151E1A211F5C00E5721A /* RustleTests */,
 				CE5A15031A211F5C00E5721A /* Products */,
@@ -90,15 +145,10 @@
 		CE5A15041A211F5C00E5721A /* Rustle */ = {
 			isa = PBXGroup;
 			children = (
-				CE5A150C1A211F5C00E5721A /* CameraViewController.h */,
-				CE5A150D1A211F5C00E5721A /* CameraViewController.m */,
-				CE5A152C1A21561500E5721A /* CustomImagePickerController.h */,
-				CE5A152D1A21561500E5721A /* CustomImagePickerController.m */,
-				CEEB53CF1A21A28D000C4BDB /* RustlesTableViewController.h */,
-				CEEB53D01A21A28D000C4BDB /* RustlesTableViewController.m */,
 				CE5A150F1A211F5C00E5721A /* Main.storyboard */,
 				CE5A15121A211F5C00E5721A /* Images.xcassets */,
 				CE5A15141A211F5C00E5721A /* LaunchScreen.xib */,
+				CE03611D1B6B2B6C006D3A67 /* Controllers */,
 				CEEB543F1A21AAAA000C4BDB /* Model */,
 				CE5A15051A211F5C00E5721A /* Supporting Files */,
 			);
@@ -108,6 +158,18 @@
 		CE5A15051A211F5C00E5721A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CED0BF4C1A90173A0088A1F6 /* libsqlite3.dylib */,
+				CED0BF4A1A9017310088A1F6 /* libz.dylib */,
+				CED0BF481A9017280088A1F6 /* SystemConfiguration.framework */,
+				CED0BF461A90171F0088A1F6 /* StoreKit.framework */,
+				CED0BF441A9017170088A1F6 /* Security.framework */,
+				CED0BF421A90170E0088A1F6 /* QuartzCore.framework */,
+				CED0BF401A9017060088A1F6 /* MobileCoreServices.framework */,
+				CED0BF3E1A9016FC0088A1F6 /* CoreLocation.framework */,
+				CED0BF3C1A9016F50088A1F6 /* CoreGraphics.framework */,
+				CED0BF3A1A9016EA0088A1F6 /* CFNetwork.framework */,
+				CED0BF381A9016E00088A1F6 /* AudioToolbox.framework */,
+				CE0A55381A88219800EDC371 /* Constants.h */,
 				CE5A15091A211F5C00E5721A /* AppDelegate.h */,
 				CE5A150A1A211F5C00E5721A /* AppDelegate.m */,
 				CE5A15061A211F5C00E5721A /* Info.plist */,
@@ -131,6 +193,19 @@
 				CE5A15201A211F5C00E5721A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CED0BF2D1A90165F0088A1F6 /* parse-library-1.6.2 */ = {
+			isa = PBXGroup;
+			children = (
+				CED0BF2E1A90165F0088A1F6 /* Bolts.framework */,
+				CED0BF2F1A90165F0088A1F6 /* Parse.framework */,
+				CED0BF301A90165F0088A1F6 /* ParseCrashReporting.framework */,
+				CED0BF311A90165F0088A1F6 /* ParseFacebookUtils.framework */,
+				CED0BF321A90165F0088A1F6 /* ParseUI.framework */,
+			);
+			name = "parse-library-1.6.2";
+			path = "Rustle/parse-library-1.6.2";
 			sourceTree = "<group>";
 		};
 		CEEB543F1A21AAAA000C4BDB /* Model */ = {
@@ -372,8 +447,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Rustle/parse-library-1.6.2",
+				);
 				INFOPLIST_FILE = Rustle/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -386,8 +465,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Rustle/parse-library-1.6.2",
+				);
 				INFOPLIST_FILE = Rustle/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

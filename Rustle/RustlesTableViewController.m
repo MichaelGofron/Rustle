@@ -8,10 +8,13 @@
 
 #import "RustlesTableViewController.h"
 #import "PhotoCell.h"
+#import "Constants.h"
 
 @implementation RustlesTableViewController
 
 - (void)viewDidLoad {
+    if (debug==1) {NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));}
+    
     [super viewDidLoad];
     
     [self.tableView registerClass:[PhotoCell class] forCellReuseIdentifier:@"PhotoCell"];
@@ -23,6 +26,11 @@
 }
 
 #pragma mark - Table View
+- (IBAction)segueToCamera:(id)sender {
+    if (debug==1) {NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));}
+    // segue back to original vc
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return 1;
@@ -33,6 +41,7 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (debug==1) {NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));}
     PhotoCell *cell = [tableView dequeueReusableCellWithIdentifier:@"PhotoCell"];
     return cell;
 }
